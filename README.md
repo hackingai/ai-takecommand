@@ -25,20 +25,20 @@ def date(): # to tell the user date
 def wishMe():
     hour = int(datetime.datetime.now().hour)
     if hour>= 0 and hour< 12:
-        a = "Good morning rakshith", "Good morning rakshith", "Hello rakshith Good Morning", "O, Good morning rakshith", "O, good morning rakshith", "Wow! Welcome back rakshith rakshith"
+        a = "Good morning ", "Good morning ", "Hello  Good Morning", "O, Good morning ", "O, good morning ", "Wow! Welcome back"
         speak(random.choice(a))
     elif hour>= 12 and hour< 18:
-        b = "Good Afternoon rakshith", "Good Afternoon rakshith", "Hello rakshith Good Afternoon", "O, Good Afternoon rakshith", "O, good Afternoon rakshith", "Wow! Welcome back rakshith rakshith"   
+        b = "Good Afternoon ", "Good Afternoon ", "Hello  Good Afternoon", "O, Good Afternoon ", "O, good Afternoon ", "Wow! Welcome back rakshith"   
         speak(random.choice(b))
     elif hour>= 18 and hour< 20:
-        c = "Good Evening rakshith", "Good Evening rakshith", "Hello rakshith Good Evening", "O, Good Evening rakshith", "O, good Evening rakshith", "Wow! Welcome back rakshith rakshith"
+        c = "Good Evening rakshith", "Good Evening ", "Hello  Good Evening", "O, Good Evening ", "O, good Evening ", "Wow! Welcome back"
         speak(random.choice(c))
 
     elif hour>=20 and hour<0:
-        d = "Good Night rakshith Have a good dream"
+        d = "Good Night Have a good dream"
 
 wishMe()
-wel = "So, how can i help you rakshith!", "How can i help", "Give me a command rakshith", "Online and ready rakshith", "What can i do for you", "Please give me a command rakshith"
+wel = "So, how can i help you!", "How can i help", "Give me a command ", "Online and ready ", "What can i do for you", "Please give me a command "
 speak(random.choice(wel)) 
 
 
